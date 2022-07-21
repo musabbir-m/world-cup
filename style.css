@@ -117,7 +117,7 @@ header-section style ends
     size: 100%;
 }
 
-.transfer-button{
+.transfer-button {
     text-decoration: none;
     border: 1px solid black;
     border-radius: 3px;
@@ -125,7 +125,8 @@ header-section style ends
     font-size: 16px;
     font-weight: 500;
 }
-.blog-txt p{
+
+.blog-txt p {
     font-weight: 600;
     font-size: 18px;
 }
@@ -159,4 +160,9 @@ header-section style ends
 
 .blog-button {
     background-color: rgb(229, 39, 48);
+}
+
+.blog-icon {
+    display: flex;
+    justify-content: space-between;
 }
