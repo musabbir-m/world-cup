@@ -1,24 +1,53 @@
 /* universal style */
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
 
 body {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #FFFFFF;
+    border: 2px solid blue;
 }
+
+/* universal style ends */
+
+/* ...............
+.header-section styles starts.
+............ */
 
 .header-section {
 
     background-color: black;
     border-radius: 8px;
-    color: aliceblue;
     position: absolute;
     width: 1321px;
     height: 646px;
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 50px;
+    display: flex;
 
 }
+
+.header-txt,
+.header-img {
+    width: 50%;
+
+}
+
+.header-txt h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.header-txt p {}
+
+.header-img img {}
+
+/* ......
+header-section style ends
+............... */
