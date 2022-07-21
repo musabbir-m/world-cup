@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     background-color: #FFFFFF;
     border: 2px solid blue;
-    position: relative;
+
 }
 
 /* universal style ends */
@@ -22,8 +22,7 @@ body {
 .header-section {
 
     background-color: black;
-    border-radius: 8px;
-    position: absolute;
+    border-radius: 30px;
     width: 1321px;
     height: 646px;
     margin-left: 140px;
@@ -64,6 +63,7 @@ body {
 
     background-color: #DD0000;
     text-decoration: none;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
