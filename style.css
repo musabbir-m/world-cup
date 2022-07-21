@@ -117,6 +117,19 @@ header-section style ends
     size: 100%;
 }
 
+.transfer-button{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.blog-txt p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .sidbar-main-content {
     display: flex;
 }
