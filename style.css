@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
     background-color: #FFFFFF;
     border: 2px solid blue;
+    position: relative;
 }
 
 /* universal style ends */
@@ -29,13 +30,22 @@ body {
     margin-right: 140px;
     margin-top: 50px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .header-txt,
 .header-img {
     width: 50%;
+}
 
+.header-txt {
+    padding-left: 106px;
+}
+
+.header-img {
+    padding-right: 79px;
 }
 
 .header-txt h1 {
@@ -44,9 +54,27 @@ body {
     color: #FFFFFF;
 }
 
-.header-txt p {}
+.header-txt p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
 
-.header-img img {}
+.header-txt a {
+
+    background-color: #DD0000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px 10px;
+    border-radius: 5px;
+
+}
+
+.header-img img {
+    width: 90%;
+}
 
 /* ......
 header-section style ends
