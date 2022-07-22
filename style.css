@@ -9,7 +9,6 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #FFFFFF;
-    border: 2px solid blue;
 
 }
 
@@ -48,7 +47,7 @@ body {
 
 .header-img {
     padding-right: 10%;
-    
+
 }
 
 .header-txt h1 {
@@ -80,16 +79,19 @@ body {
     width: 50%;
     height: 80%;
 }
+
 /* animation style starts*/
 
 
-.marcelo{
+.marcelo {
     transition: transform .5s;
 }
-.header-section:hover .marcelo{
+
+.header-section:hover .marcelo {
     transform: rotate(-10deg);
-    width:80% ;
+    width: 80%;
 }
+
 /* animation-style ends */
 
 /* ......
@@ -173,20 +175,23 @@ header-section style ends
     border-radius: 10px;
     border: none;
 }
-:hover .side-button{
+
+:hover .side-button {
     background-color: #f30ceb;
-    
+
 }
-        /********* blog button class  was applied to other highlighted button as well *******/
+
+/********* blog button class  was applied to other highlighted button as well *******/
 .blog-button {
-    background-color:#de1777;
+    background-color: #de1777;
 }
 
 .blog-icon {
     display: flex;
     justify-content: space-between;
 }
-.view-all{
+
+.view-all {
     visibility: hidden;
 }
 
@@ -223,11 +228,13 @@ footer div h4 {
     padding-right: 15px;
     font-weight: 3em;
 }
-.social-handle{
+
+.social-handle {
     display: flex;
     align-items: space-around;
 }
-.social-handle p{
+
+.social-handle p {
     margin-right: 10px;
 }
 
@@ -238,9 +245,9 @@ footer div h4 {
  ................*/
 
 @media screen and (max-width: 600px) {
-    
+
     /* mobile header sections  */
-    .header-section{
+    .header-section {
         width: 334px;
         height: 472px;
         margin-left: 16px;
@@ -254,67 +261,80 @@ footer div h4 {
         font-size: 2em;
         color: #FFFFFF;
     }
+
     .header-txt,
-.header-img {
-    width: 100%;
-    text-align: center;
-    padding-right: 2px;
-}
-/* mobile header style ends */
+    .header-img {
+        width: 100%;
+        text-align: center;
+        padding-right: 2px;
+    }
 
-/* mobile main section style starts  */
+    /* mobile header style ends */
 
-.main-section{
-    width: 334px;
-    margin-left: 16px;
-}
-.sidebar-main-content{
-    flex-direction: column;
-}
-.sidebar{
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 6px;
-    background-color: #FFFFFF;
-}
-.main-content {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 2px;
-    column-gap: 2px;
-}
-footer{
-    height: 412px;
-    padding-bottom: 50px;
-    padding-top: 0;
-}
-footer h2{
-    height: 10%;
-}
-footer hr{
-    margin-bottom: 0;
-}
-.footer-end-txt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    /* mobile main section style starts  */
 
+    .main-section {
+        width: 334px;
+        margin-left: 16px;
+    }
+
+    .sidebar-main-content {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 6px;
+        background-color: #FFFFFF;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2px;
+        column-gap: 2px;
+    }
+
+    footer {
+        height: 412px;
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+
+    footer h2 {
+        height: 10%;
+    }
+
+    footer hr {
+        margin-bottom: 0;
+    }
+
+    .footer-end-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+    }
+
+    .footer-end-txt h4 {
+        height: 10px;
+        margin-top: 0;
+    }
+
+    .social-handle {
+        display: flex;
+
+    }
+
+    social-handle p {
+        margin-right: 5px;
+
+    }
 }
-.footer-end-txt h4 {
-    height: 10px;
-    margin-top: 0;
-}
-.social-handle{
-    display: flex;
-   
-}
-social-handle p{
-    margin-right: 5px;
-    
-}
-}
+
 /* .............
 responsive mobile ends
 .............. */
@@ -325,7 +345,7 @@ responsive tab starts
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
 
-.header-section{
+    .header-section {
         width: 700px;
         height: 398px;
         margin-left: 16px;
@@ -333,69 +353,77 @@ responsive tab starts
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .header-txt h1 {
         font-weight: 700;
         font-size: 2em;
         color: #FFFFFF;
     }
+
     .header-txt,
-.header-img {
-    width: 100%;
-    text-align: center;
-    padding-right: 2px;
-}
-/* tab header style ends */
+    .header-img {
+        width: 100%;
+        text-align: center;
+        padding-right: 2px;
+    }
 
-/* tab main starts */
-.main-section{
-    width: 734px;
-    margin-left: 16px;}
+    /* tab header style ends */
 
-.sidebar-main-content{
-    flex-direction: column;
-    
-}
-.sidebar{
-    flex-direction: row;
-    width: 734px;
-    height: 64px;
-    padding-left: 15px;
-    padding-right: 33px;
-    margin-left: 0;
-    background-color: #FFFFFF;
-    margin-bottom: 40px;
-}
-.side-button{
-    margin-right: 5px;
-    margin-left: 0;
-}
-.main-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 2px;
-    column-gap: 2px;
+    /* tab main starts */
+    .main-section {
+        width: 734px;
+        margin-left: 16px;
+    }
 
-}
-.view-all{
-    text-align: center;
-}
-.view-all button{
-    visibility: visible;
-    background-color: #DD0000;
-    text-decoration: none;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 1em;
-    text-align: center;
-    padding: 16px 10px;
-    border-radius: 7px;
-    width: 100px;
-    height: 60px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    align-items: center;
-    
-}
+    .sidebar-main-content {
+        flex-direction: column;
+
+    }
+
+    .sidebar {
+        flex-direction: row;
+        width: 734px;
+        height: 64px;
+        padding-left: 15px;
+        padding-right: 33px;
+        margin-left: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+
+    .side-button {
+        margin-right: 5px;
+        margin-left: 0;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2px;
+        column-gap: 2px;
+
+    }
+
+    .view-all {
+        text-align: center;
+    }
+
+    .view-all button {
+        visibility: visible;
+        background-color: #DD0000;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 1em;
+        text-align: center;
+        padding: 16px 10px;
+        border-radius: 7px;
+        width: 100px;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        align-items: center;
+
+    }
 
 }
