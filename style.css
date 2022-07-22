@@ -13,9 +13,6 @@ body {
 
 }
 
-.header-section,
-.main-section,
-.footer {}
 
 /* universal style ends */
 
@@ -51,7 +48,7 @@ body {
 
 .header-img {
     padding-right: 10%;
-    size: 100%;
+    
 }
 
 .header-txt h1 {
@@ -79,8 +76,8 @@ body {
 
 
 .header-img img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
 }
 
 /* ......
@@ -93,6 +90,8 @@ header-section style ends
     margin-top: 100px;
     margin-left: 140px;
     margin-right: 140px;
+    flex-direction: column;
+    border-radius: 15px;
 }
 
 .main-content {
@@ -142,7 +141,7 @@ header-section style ends
 .sidebar {
     width: 312px;
     height: 312px;
-    background-color: rgb(59, 51, 59);
+    background-color: rgb(220, 178, 237);
     border-radius: 15px;
     padding: 10px;
     margin-right: 15px;
@@ -206,3 +205,60 @@ footer div h4 {
     padding-right: 15px;
     font-weight: 3em;
 }
+
+/* ....footer style ends...... */
+
+/*..............
+ responsive mobile starts 
+ ................*/
+
+@media screen and (max-width: 600px) {
+    
+    /* mobile header sections  */
+    .header-section{
+        width: 334px;
+        height: 472px;
+        margin-left: 16px;
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-txt h1 {
+        font-weight: 700;
+        font-size: 2em;
+        color: #FFFFFF;
+    }
+    .header-txt,
+.header-img {
+    width: 100%;
+    text-align: center;
+    padding-right: 2px;
+}
+/* mobile header style ends */
+
+/* mobile main section style starts  */
+
+.main-section{
+    width: 334px;
+    margin-left: 16px;
+}
+.sidebar-main-content{
+    flex-direction: column;
+}
+.sidebar{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 6px;
+    background-color: #FFFFFF;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2px;
+    column-gap: 2px;
+}
+/* .............
+responsive mobile ends
+.............. */
+    
