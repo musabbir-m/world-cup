@@ -80,6 +80,17 @@ body {
     width: 50%;
     height: 80%;
 }
+/* animation style starts*/
+
+
+.marcelo{
+    transition: transform .5s;
+}
+.header-section:hover .marcelo{
+    transform: rotate(-10deg);
+    width:80% ;
+}
+/* animation-style ends */
 
 /* ......
 header-section style ends
