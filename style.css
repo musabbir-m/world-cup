@@ -64,7 +64,7 @@ body {
 }
 
 .header-txt button {
-    background-color: #DD0000;
+    background-color: #de1777;
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 400;
@@ -73,6 +73,7 @@ body {
     padding: 16px 10px;
     border-radius: 5px;
 }
+
 
 
 .header-img img {
@@ -161,9 +162,13 @@ header-section style ends
     border-radius: 10px;
     border: none;
 }
-
+:hover .side-button{
+    background-color: #f30ceb;
+    
+}
+        /********* blog button class  was applied to other highlighted button as well *******/
 .blog-button {
-    background-color: rgb(229, 39, 48);
+    background-color:#de1777;
 }
 
 .blog-icon {
