@@ -191,7 +191,7 @@ footer h2 {
 
 footer hr {
     border: 1px solid #494747;
-
+    
 }
 
 
@@ -257,6 +257,29 @@ footer div h4 {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 2px;
     column-gap: 2px;
+}
+footer{
+    height: 412px;
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+footer h2{
+    height: 10%;
+}
+footer hr{
+    margin-bottom: 0;
+}
+.footer-end-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.footer-end-txt h4 {
+    height: 10px;
+    margin-top: 0;
 }
 /* .............
 responsive mobile ends
