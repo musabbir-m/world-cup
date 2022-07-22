@@ -191,7 +191,6 @@ footer h2 {
 
 footer hr {
     border: 1px solid #494747;
-    
 }
 
 
@@ -204,6 +203,13 @@ footer div {
 footer div h4 {
     padding-right: 15px;
     font-weight: 3em;
+}
+.social-handle{
+    display: flex;
+    align-items: space-around;
+}
+.social-handle p{
+    margin-right: 10px;
 }
 
 /* ....footer style ends...... */
@@ -281,7 +287,75 @@ footer hr{
     height: 10px;
     margin-top: 0;
 }
+.social-handle{
+    display: flex;
+   
+}
+social-handle p{
+    margin-right: 5px;
+    
+}
+}
 /* .............
 responsive mobile ends
 .............. */
+
+/* ..............
+responsive tab starts
+.................. */
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+
+.header-section{
+        width: 700px;
+        height: 398px;
+        margin-left: 16px;
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     
+    .header-txt h1 {
+        font-weight: 700;
+        font-size: 2em;
+        color: #FFFFFF;
+    }
+    .header-txt,
+.header-img {
+    width: 100%;
+    text-align: center;
+    padding-right: 2px;
+}
+/* tab header style ends */
+
+/* tab main starts */
+.main-section{
+    width: 734px;
+    margin-left: 16px;}
+
+.sidebar-main-content{
+    flex-direction: column;
+    
+}
+.sidebar{
+    flex-direction: row;
+    width: 734px;
+    height: 64px;
+    padding-left: 15px;
+    padding-right: 33px;
+    margin-left: 0;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.side-button{
+    margin-right: 5px;
+    margin-left: 0;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2px;
+    column-gap: 2px;
+
+}
+
